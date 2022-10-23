@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Shop App</title>
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script type = "text/javascript" src = "/js/materialize.min.js"></script>
+    <link rel = "manifest" href="/manifest.json" >
+
+</head>
+<body>
+    <nav class  = 'z-depth-0'>
+        <div class="nav-wrapper container">
+<a href = '/'> Flor <span> Essence </span></a> 
+            <span>
+                <i class = 'material-icons sidenav-trigger' data-target = "side-menu">menu</i>
+            </span>
+
+        </div>
+    </nav>
+
+    <div class="card-panel plant white row">
+    <div class="center title">
+        <h1> Featured Plants</h1>
+    </div> 
+    </div>
+
+    <ul id = 'side-menu' class = 'sidenav side-menu'>
+        <li><a class = "subheader"Plant Shop App></a></li>
+        <li><a href="/" class = "waves-effect"><span class="material-symbols-outlined">
+            home
+            </span> Home</a></li>
+            <li><a href="/pages/shop.html" class = "waves-effect"><span class="material-symbols-outlined">
+                storefront
+                </span> Shop</a>
+            </li>
+        <li><a href="/pages/myplants.html" class = 'waves-effect'><span class="material-symbols-outlined">
+            potted_plant
+            </span> My Plants</a></li>
+        <li><a href="/pages/mycart.html" class = "waves-effect"><span class="material-symbols-outlined">
+            shopping_cart
+            </span> My Cart </a>
+        </li>
+        <span><img src="/img/icons/icon1-500x500.png" class = "icon"></span>
+    </ul>
+
+    <!---Options-->
+    <div class="plants container grey-text text-darken-1">
+        <div class="card-panel f-plant white row">
+            <img src="/img/img1.jpeg" class = "responsive-img materialboxed" alt="">
+            <div class="plant-detail">
+                <div class="plant-title"> Monstera </div>
+                <div class="plant-description">A climbing, evergreen perennial vine that is perhaps most noted for its large perforated leaves on thick plant stems and its long cord-like aerial roots.</div>
+                <div class="plant-add-to-cart">
+                    <div class = "add-to-cart-text"> Add to cart</div>
+                    <span class="material-symbols-outlined">
+                        add_circle
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="plants container grey-text text-darken-1">
+        <div class="card-panel f-plant white row">
+            <img src="/img/img2.jpeg" class = "responsive-img materialboxed" alt="">
+            <div class="plant-detail">
+                <div class="plant-title"> Banana Plant </div>
+                <div class="plant-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur vel deserunt dolorum. Optio cumque pariatur tempora porro quaerat eius numquam tenetur vero? At, nesciunt. Nesciunt vero cumque molestias eum esse!</div>
+                <div class="plant-add-to-cart">
+                    <div class = "add-to-cart-text"> Add to cart</div>
+                    <span class="material-symbols-outlined">
+                        add_circle
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="plants container grey-text text-darken-1">
+        <div class="card-panel f-plant white row">
+            <img src="/img/img3.jpeg" class = "responsive-img materialboxed" alt="">
+            <div class="plant-detail">
+                <div class="plant-title"> Lorem ipsum  </div>
+                <div class="plant-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur vel deserunt dolorum. Optio cumque pariatur tempora porro quaerat eius numquam tenetur vero? At, nesciunt. Nesciunt vero cumque molestias eum esse!</div>
+                <div class="plant-add-to-cart">
+                    <div class = "add-to-cart-text"> Add to cart</div>
+                    <span class="material-symbols-outlined">add_circle
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="side-form" class = "sidenav side-form">
+    <form class="add-plant container section">
+        <h6>Search for plant</h6>
+        <div class="divider"></div>
+            <div class="input-field">
+                <input placeholder = "Enter Plant Name" id = "plant-name" class = "validate" type="text">
+                <label for="plant-name">Plant Name</label>
+            </div>
+            <div class="input-field">
+                <input placeholder = "Enter Description" id = "description" class = "validate" type="text">
+                <label for="description">Plant Description</label>
+            </div>
+
+            <div class="input-field center">
+                <button class = "btn-small"> Add</button>
+            </div>
+
+        </div>
+    </form>
+
+    <script src = "/js/ui.js"></script>
+</body>
+</html>

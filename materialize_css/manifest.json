@@ -1,0 +1,29 @@
+{
+    "name": "Plant Shop App",
+    "short_name": "PSA",
+    "description": "Shop and care for plants",
+    "start_url": "/index.html",
+    "scope": ".",
+    "dispay": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#f6f6f6",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/icons/icon1-48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/img/icons/icon1-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/img/icons/icon1-500x500.png",
+            "type": "image/png",
+            "sizes": "500x500"
+        }
+    ]
+}
